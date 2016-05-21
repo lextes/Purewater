@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.real-water.webnode.mx	TRUE	/	FALSE	1999999999	fess	a98aa45fdce42c9b184805962c38d7ef4598fbea
+.real-water.webnode.mx	TRUE	/	FALSE	1999999999	PHPSESSID	0k6jt9rh4aku62pjugtev19f64
+

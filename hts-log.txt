@@ -1,0 +1,17 @@
+HTTrack3.48-21+htsswf+htsjava launched on Thu, 19 May 2016 16:43:02 at http://real-water.webnode.mx/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://real-water.webnode.mx/ -O1 "C:\Users\Personal\Desktop\site purewter" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:43:18	Error: 	"Not Found" (404) at link real-water.webnode.mx/wnd_header.set/ (from real-water.webnode.mx/)
+16:43:18	Warning: 	Moved Permanently for real-water.webnode.mx/home/
+16:43:18	Warning: 	File has moved from real-water.webnode.mx/home/ to http://real-water.webnode.mx
+16:45:30	Error: 	"Not Found" (404) at link real-water.webnode.mx/alojamiento/wnd_header.set/ (from real-water.webnode.mx/alojamiento/)
+16:45:57	Error: 	"Not Found" (404) at link real-water.webnode.mx/precios/wnd_header.set/ (from real-water.webnode.mx/precios/)
+16:45:57	Error: 	"Not Found" (404) at link real-water.webnode.mx/contacto/wnd_header.set/ (from real-water.webnode.mx/contacto/)
+
+HTTrack Website Copier/3.48-21 mirror complete in 2 minutes 55 seconds : 48 links scanned, 42 files written (7106959 bytes overall) [4344786 bytes received at 24827 bytes/sec], 3278026 bytes transferred using HTTP compression in 21 files, ratio 13%, 1.3 requests per connection
+(4 errors, 2 warnings, 0 messages)
