@@ -5385,8 +5385,7 @@ body.wnd-cms .mt-portfolio-02 .inline-text>span:empty {
     height: 60px;
     margin: 0 60px 0 5px;
     padding-right: 2px;
-    padding-left: 2px;
-    overflow: hidden;
+    padding-left: 20px;
     width: auto;
     display: inline-block;
     max-width: 80%
@@ -5420,7 +5419,8 @@ body.wnd-cms .mt-portfolio-02 .inline-text>span:empty {
 
 .header-01 .logo .text-content-outer {
     display: table-cell;
-    vertical-align: middle
+    vertical-align: middle;
+    padding-left: 10px;
 }
 
 .header-01 .logo .text-content {
