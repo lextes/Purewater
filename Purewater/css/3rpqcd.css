@@ -19,6 +19,9 @@ td,
 th {
     padding: 0
 }
+.nounderline{
+    text-decoration:none;  
+}
 
 .wnd-float-left,
 .wnd-float-right,
@@ -1447,12 +1450,12 @@ strong {
 }
 
 .abril-fatface {
-    font-family: "Abril FatFace", "Times New Roman", serif;
+    font-family: "Abril FatFace", "proxima-nova", serif;
     font-weight: 400
 }
 
 .wnd-fonts-fallback .abril-fatface {
-    font-family: "Times New Roman", serif
+    font-family: "arial", serif
 }
 
 .abril-fatface b,
@@ -1531,12 +1534,12 @@ strong {
 }
 
 .playfair-display {
-    font-family: "Playfair Display", "Times New Roman", serif;
+    font-family: "Playfair Display", "proxima-nova", serif;
     font-weight: 400
 }
 
 .wnd-fonts-fallback .playfair-display {
-    font-family: "Times New Roman", serif
+    font-family: "proxima-nova", serif
 }
 
 .playfair-display b,
@@ -1559,12 +1562,12 @@ strong {
 }
 
 .pt-serif {
-    font-family: pt-serif, "Times New Roman", serif;
+    font-family: pt-serif, "proxima-nova", serif;
     font-weight: 400
 }
 
 .wnd-fonts-fallback .pt-serif {
-    font-family: "Times New Roman", serif
+    font-family: "proxima-nova", serif
 }
 
 .pt-serif b,
@@ -1573,12 +1576,12 @@ strong {
 }
 
 .ribeye-marrow {
-    font-family: "Ribeye Marrow", "Times New Roman", serif;
+    font-family: "Ribeye Marrow", "proxima-nova", serif;
     font-weight: 400
 }
 
 .wnd-fonts-fallback .ribeye-marrow {
-    font-family: "Times New Roman", serif
+    font-family: "proxima-nova", serif
 }
 
 .ribeye-marrow b,
@@ -3009,12 +3012,12 @@ blockquote {
     line-height: 1.55556;
     padding: 20px 20px 30px 50px;
     position: relative;
-    font-family: pt-serif, "Times New Roman", serif;
+    font-family: pt-serif, "proxima-nova", serif;
     margin: 0
 }
 
 .wnd-fonts-fallback blockquote {
-    font-family: "Times New Roman", serif
+    font-family: "proxima-nova", serif
 }
 
 blockquote:before {
@@ -3023,14 +3026,14 @@ blockquote:before {
     left: 5px;
     max-height: 30px;
     content: '“';
-    font-family: pt-serif, "Times New Roman", serif;
+    font-family: pt-serif, "proxima-nova", serif;
     line-height: 1;
     position: absolute;
     overflow: hidden
 }
 
 .wnd-fonts-fallback blockquote:before {
-    font-family: "Times New Roman", serif
+    font-family: "proxima-nova", serif
 }
 
 blockquote b,
@@ -3068,7 +3071,7 @@ h4 {
 h1 {
     font-size: 2rem;
     line-height: 1.25;
-    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial;
     font-weight: 100
 }
 
@@ -3260,14 +3263,14 @@ ul+h4 {
     line-height: 1.71429;
     padding: 8px 10px;
     display: block;
-    font-family: pt-serif, "Times New Roman", serif;
+    font-family: pt-serif, "proxima-nova", serif;
     font-style: italic;
     cursor: default;
     word-wrap: break-word
 }
 
 .wnd-fonts-fallback .image-title span {
-    font-family: "Times New Roman", serif
+    font-family: "proxima-nova", serif
 }
 
 .image-title span:empty {
@@ -3322,7 +3325,7 @@ body:not(.wnd-cms) .image-block img {
     text-decoration: none;
     position: relative;
     overflow: hidden
-}
+ }
 
 .wnd-fonts-fallback .button a {
     font-family: Helvetica, Arial, sans-serif
@@ -3435,13 +3438,13 @@ body:not(.wnd-cms) .image-block img {
     line-height: 1.71429;
     padding: 8px 10px;
     display: block;
-    font-family: pt-serif, "Times New Roman", serif;
+    font-family: pt-serif, "proxima-nova", serif;
     font-style: italic;
     word-wrap: break-word
 }
 
 .wnd-fonts-fallback .gallery .gallery-title span {
-    font-family: "Times New Roman", serif
+    font-family: "proxima-nova", serif
 }
 
 .gallery .gallery-title span:empty {
@@ -3650,7 +3653,7 @@ body.wnd-cms .gallery-title {
     font-size: 1rem;
     line-height: 1.75;
     border-radius: 0 0 5px 5px;
-    font-family: pt-serif, "Times New Roman", serif;
+    font-family: pt-serif, "proxima-nova", serif;
     font-style: italic;
     padding: 7px 15px;
     position: absolute;
@@ -3669,7 +3672,7 @@ body.wnd-cms .gallery-title {
 }
 
 .wnd-fonts-fallback .gallery-slideshow .photo-title {
-    font-family: "Times New Roman", serif
+    font-family: "proxima-nova", serif
 }
 
 .gallery-slideshow .photo-next,
@@ -5005,14 +5008,14 @@ body.wnd-cms .mt-pricing-02 .text {
     line-height: 1.5;
     text-align: center;
     padding: 8px 10px;
-    font-family: pt-serif, "Times New Roman", serif;
+    font-family: pt-serif, "proxima-nova", serif;
     font-weight: 400;
     font-style: italic;
     display: block
 }
 
 .wnd-fonts-fallback .mt-portfolio-02 .inline-text>span {
-    font-family: "Times New Roman", serif
+    font-family: "proxima-nova", serif
 }
 
 .mt-portfolio-02 .inline-text>span:empty {
@@ -5385,8 +5388,7 @@ body.wnd-cms .mt-portfolio-02 .inline-text>span:empty {
     height: 60px;
     margin: 0 60px 0 5px;
     padding-right: 2px;
-    padding-left: 2px;
-    overflow: hidden;
+    padding-left: 20px;
     width: auto;
     display: inline-block;
     max-width: 80%
@@ -5420,7 +5422,8 @@ body.wnd-cms .mt-portfolio-02 .inline-text>span:empty {
 
 .header-01 .logo .text-content-outer {
     display: table-cell;
-    vertical-align: middle
+    vertical-align: middle;
+    padding-left: 10px;
 }
 
 .header-01 .logo .text-content {
@@ -6247,7 +6250,7 @@ body.wnd-cms .mt-portfolio-02 .inline-text>span:empty {
 .header-01.design-17.claim-section:not(#layout-section) .big-claim,
 .header-01.design-19.claim-section:not(#layout-section) .big-claim,
 .header-01.design-25.claim-section:not(#layout-section) .big-claim {
-    font-family: "Abril FatFace", "Times New Roman", serif;
+    font-family: "Abril FatFace", "proxima-nova", serif;
     font-weight: 400
 }
 
@@ -6268,7 +6271,7 @@ body.wnd-cms .mt-portfolio-02 .inline-text>span:empty {
 .wnd-fonts-fallback .header-01.design-17.claim-section:not(#layout-section) .big-claim,
 .wnd-fonts-fallback .header-01.design-19.claim-section:not(#layout-section) .big-claim,
 .wnd-fonts-fallback .header-01.design-25.claim-section:not(#layout-section) .big-claim {
-    font-family: "Times New Roman", serif
+    font-family: "proxima-nova", serif
 }
 
 .header-01.design-03.claim-section:not(#layout-section) .big-claim .styled-inline-text,
@@ -6598,7 +6601,7 @@ body.wnd-cms .mt-portfolio-02 .inline-text>span:empty {
 
 .heading-01 .heading-claim {
     display: block;
-    font-family: pt-serif, "Times New Roman", serif;
+    font-family: pt-serif, "proxima-nova", serif;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -6607,7 +6610,7 @@ body.wnd-cms .mt-portfolio-02 .inline-text>span:empty {
 }
 
 .wnd-fonts-fallback .heading-01 .heading-claim {
-    font-family: "Times New Roman", serif
+    font-family: "proxima-nova", serif
 }
 
 .heading-01 .heading-claim b,
