@@ -15688,8 +15688,9 @@ only screen and (min-resolution:2dppx) and (min-width:700px) {
     }
     h1 {
         font-size: 3.4375rem;
-        line-height: 1.16364
+        line-height: 1.16364;
     }
+
     h1+ol,
     h1+p,
     h1+ul {
