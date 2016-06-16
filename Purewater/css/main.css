@@ -1,0 +1,17 @@
+* {
+    border: px solid red !important;
+}
+
+
+
+.titlePub {
+        font-size: 4rem;
+        line-height: 1.16364;
+        text-shadow: 0.05em 0em #333
+    }
+
+.titleright{
+	font-size: 3.5rem;
+	text-align: right
+}
+
