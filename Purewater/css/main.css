@@ -16,13 +16,16 @@
 }
 
 .ir-arriba {
-	display:none;
-	padding:20px;
-	background:#024959;
-	font-size:20px;
-	color:#fff;
-	cursor:pointer;
-	position: relative;
-	bottom:20px;
-	right:20px;
+	position: fixed;
+	width:50px;
+	right:10%;
+	bottom: 10%;
+	display: none;
+	cursor: pointer;
 }
+
+.logoPos{
+	display: inline-block;
+	margin-left: 725px;
+}
+

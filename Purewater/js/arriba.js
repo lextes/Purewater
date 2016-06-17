@@ -1,17 +1,16 @@
-$(document).ready(function(){
- 
-	$('.ir-arriba').click(function(){
-		$('body, html').animate({
-			scrollTop: '0px'
-		}, 300);
-	});
- 
-	$(window).scroll(function(){
-		if( $(this).scrollTop() > 0 ){
-			$('.ir-arriba').slideDown(300);
-		} else {
-			$('.ir-arriba').slideUp(300);
-		}
-	});
- 
-});
+(function(){
+	var link,
+		toggleScrollToTopLink = function(){
+			if($("body").scrollTop() > 0 || $("html").scrollTop() > 0){
+				link.fadeIn(400);
+			}
+			else{
+				link.fadeOut(400);
+			}
+		};
+		$(document).ready(function(){
+			link = $(".scroll-to-top-link");
+			$(window).scroll(toggleScrollToTopLink);
+			toggleScrollToTopLink();
+		});
+})();
