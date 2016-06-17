@@ -35,3 +35,18 @@
     -webkit-box-shadow: rgb(150,150,150) 10px 10px;
     box-shadow: rgb(150,150,150) 0px 0px 45px 1px; 
 }
+
+#back-top-wrapper p#back-top { margin:0; }
+#back-top-wrapper p#back-top a { width:42px; }
+#back-top-wrapper p#back-top a:hover span { background-position:0% -42px; }
+#back-top-wrapper p#back-top a span {
+	background:url('images/up.png') no-repeat 0% 0%;
+	width:42px;
+	height:42px;
+	overflow:hidden;
+	margin:0;
+	-webkit-transition:none;
+	-moz-transition:none;
+	-o-transition:none;
+	transition:none;
+}
