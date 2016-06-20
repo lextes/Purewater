@@ -380,8 +380,8 @@ iframe {
 
 .wnd-background-image {
     -webkit-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat
+    background-size: 1480px 1360px;
+    background-repeat: repeat; 
 }
 
 .wnd-background-pattern {
