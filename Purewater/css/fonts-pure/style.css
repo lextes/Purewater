@@ -46,3 +46,6 @@
     content: "\f1ad";
 }
 
+.icon-users:before {
+    content: "\e901";
+}
