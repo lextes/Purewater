@@ -12,6 +12,14 @@
 
 .titleright{
 	font-size: 3.5rem;
-	text-align: right
+	text-align: right;
 }
 
+.imgPos{
+	margin-left: 810px;
+}
+
+.imgSha{
+	display: block;
+	box-shadow: 2px 2px 20px #999; 
+}
